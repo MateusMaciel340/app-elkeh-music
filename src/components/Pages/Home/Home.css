@@ -1,0 +1,52 @@
+/* Category.css */
+.category__group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    text-align: center;
+}
+
+.category__layer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #2e2e2e;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 4px solid #e0940f;
+}
+
+.category__layer img {
+    border-radius: 1rem;
+}
+
+.category__image {
+    width: 100%;
+}
+
+.category__title {
+    font-size: 2rem;
+}
+
+/* Mark.css */
+.mark__group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 4rem;
+    border: 4px solid #2e2e2e;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.mark__title {
+    font-family: monospace;
+    font-size: 2.5rem;
+    border-bottom: 0.7rem solid #e0940f;
+    padding: 1rem 0;
+}

@@ -1,0 +1,51 @@
+.content__contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact__image {
+    border: 0.5px solid #e0940f;
+    width: 100%;
+}
+
+.contact__button {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact__link {
+    color: #FFFFFF;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    background: #2e2e2e;
+}
+
+.contact__link-whatsapp {
+    color: #FFFFFF;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    background: #0abc4b;
+}
+
+.contact__link:hover {
+    background: #ccc;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .content__contact {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,64 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    align-items: center;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.header__title {
+    font-size: 2rem;
+}
+
+.header__emphasis {
+    color: #e0940f;
+}
+
+.header__nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.header__link {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: rgb(224, 148, 15);
+}
+
+.header__social {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__social .header__link:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 844px) {
+    .header {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .header__image {
+        display: none;
+    }
+}
