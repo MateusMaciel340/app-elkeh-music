@@ -19,7 +19,7 @@ function Product() {
                 <img src={`/assets/product/0${product.id}.png`} alt={`Produto (${product.title})`}/>
                 <p className="content__text">{product.title}</p>
                 <span className="product__tag">{product.category}</span>
-                <a href={`https://wa.me/85991378240?text=Tenho interesse no produto (${product.title}), pode me ajudar?`} target="_blank" className="link-whatsapp">Chamar no whatsapp</a>
+                <a href={`https://wa.me/+5585991378240?text=Tenho interesse no produto (${product.title}), pode me ajudar?`} target="_blank" className="link-whatsapp">Chamar no whatsapp</a>
             </div>
           )}
         </div>
