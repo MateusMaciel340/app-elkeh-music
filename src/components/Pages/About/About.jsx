@@ -4,7 +4,7 @@ import './About.css';
 function About() {
 
     useEffect(() => {
-        document.title  = 'Elken Music | Sobre';
+        document.title  = 'Elkeh Music | Sobre';
     }, []);
 
   return (

@@ -15,7 +15,7 @@ function FooterApp() {
                 <div className="footer__logo">
                     <img src={logoHeader} className="Imagem de duas guitarras"/>
                     <h1 className="footer__title">
-                        Elken<span className="footer__emphasis">Music</span>
+                        Elkeh<span className="footer__emphasis">Music</span>
                     </h1>
                 </div>
 

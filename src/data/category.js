@@ -23,5 +23,10 @@ export const listCategory = [
         id: 5, 
         title: 'Variedades', 
         img: 'category-guitar' 
+    },
+    {
+        id: 6,
+        title: 'Eletrônica',
+        img: 'category-electronics'
     }
 ];

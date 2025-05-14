@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
     useEffect(() => {
-            document.title  = 'Elken Music | Contato';
+            document.title  = 'Elkeh Music | Contato';
     }, []);
 
   return (

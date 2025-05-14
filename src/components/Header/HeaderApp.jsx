@@ -13,7 +13,7 @@ function HeaderApp() {
             <img src={logoHeader} alt="Imagem de duas guitarras" className="header__image"/>
 
             <h1 className="header__title">
-                Elken<span className="header__emphasis">Music</span>
+                Elkeh<span className="header__emphasis">Music</span>
             </h1>
         </div>
 

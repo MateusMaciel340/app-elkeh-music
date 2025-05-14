@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 function Product() {
 
   useEffect(() => {
-    document.title  = 'Elken Music | Produtos';
+    document.title  = 'Elkeh Music | Produtos';
   }, []);
 
   return (

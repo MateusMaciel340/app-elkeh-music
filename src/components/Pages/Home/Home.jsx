@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 function Home() {
 
   useEffect(() => {
-          document.title  = 'Elken Music | Home';
+          document.title  = 'Elkeh Music | Home';
   }, []);
 
   return (
