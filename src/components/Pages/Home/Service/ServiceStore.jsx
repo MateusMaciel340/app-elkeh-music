@@ -1,4 +1,4 @@
-import { listService } from '../../../../data/service';
+import { listService, listServiceSpecial } from '../../../../data/service';
 import './ServiceStore.css';
 
 function ServiceStore() {
@@ -15,6 +15,12 @@ function ServiceStore() {
               <h2 className="content__subtitle">{service.title}</h2>
               <p className="content__text">{service.description}</p>
             </div>
+          )}
+        </div>
+
+        <div className="service__special">
+          {listServiceSpecial.map((special, index) =>
+            <img src={`assets/service/special/service-${special.id}.png`}/>
           )}
         </div>
       </section>

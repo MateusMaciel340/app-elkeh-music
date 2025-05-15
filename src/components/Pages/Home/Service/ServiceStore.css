@@ -1,6 +1,20 @@
 .service__group {
     display: flex;
+    gap: 3rem;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+.service__special {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service__special img {
+    border: 0.5rem solid #2e2e2e;
 }
 
 .service__layer {
@@ -8,6 +22,7 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
+    width: 30%;
 }
 
 .service__layer .content__subtitle {
@@ -17,8 +32,27 @@
 
 .service__layer .content__text {
     font-size: 1rem;
+    color: #948b8b;
 }
 
-.service__group img {
+.service__layer img {
     width: 30%;
+}
+
+@media screen and (max-width: 1023px) {
+    .service__layer {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    .service__layer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .service__special img {
+        width: 100%;
+    }
 }

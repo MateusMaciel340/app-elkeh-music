@@ -1,10 +1,13 @@
 import './Home.css';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { listCategory } from '../../../data/category';
 import { listMark } from '../../../data/mark';
 import logoStars from '../../../assets/icon-stars.png';
 import { useEffect } from 'react';
 import ServiceStore from './Service/ServiceStore';
+
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 
 function Home() {
 

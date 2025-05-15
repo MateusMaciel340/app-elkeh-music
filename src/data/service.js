@@ -15,6 +15,13 @@ export const listService = [
         id: 3, 
         title: 'Consertos', 
         image: 'screwdriver-wrench-solid',
-        description: 'Consertamos e ajustamos instrumentos musicais, garantindo qualidade sonora. Técnicos especializados cuidam de guitarras, violões, pianos e mais, mantendo seu som impecável'
+        description: 'Consertamos e ajustamos instrumentos musicais, garantindo qualidade sonora. Técnicos especializados cuidam de guitarras, violões, teclados e mais, mantendo seu som impecável'
     }
+];
+
+export const listServiceSpecial = [
+    { id: 1 },
+    { id: 2 },
+    { id: 3 },
+    { id: 4 }
 ];
