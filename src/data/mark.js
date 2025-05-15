@@ -1,34 +1,46 @@
 export const listMark = [
-    { 
-        id: 1, 
-        title: 'Vox' 
+    {
+        id: 1,
+        title: 'Fender'
     },
-    { 
+    {
         id: 2, 
-        title: 'Behringer' 
+        title: 'Tagima'
     },
-    { 
-        id: 3, 
-        title: 'Dylan' 
+    {
+        id: 3,
+        title: 'Yamaha'
     },
-    { 
-        id: 4, 
-        title: 'Hofman' 
+    {
+        id: 4,
+        title: 'Lespoul'
     },
     { 
         id: 5, 
-        title: 'Strinberg' 
+        title: 'Vox' 
     },
     { 
         id: 6, 
-        title: 'Roland' 
-    }, 
+        title: 'Behringer' 
+    },
     { 
         id: 7, 
-        title: 'MultiStomp' 
+        title: 'Dylan' 
     },
     { 
         id: 8, 
-        title: 'Dallas' 
-    }
+        title: 'Hofman' 
+    },
+    { 
+        id: 9, 
+        title: 'Strinberg' 
+    },
+    { 
+        id: 10, 
+        title: 'Roland' 
+    }, 
+    { 
+        id: 11, 
+        title: 'MultiStomp' 
+    },
 ];

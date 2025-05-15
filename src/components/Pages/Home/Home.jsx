@@ -4,6 +4,7 @@ import { listCategory } from '../../../data/category';
 import { listMark } from '../../../data/mark';
 import logoStars from '../../../assets/icon-stars.png';
 import { useEffect } from 'react';
+import ServiceStore from './Service/ServiceStore';
 
 function Home() {
 
@@ -22,13 +23,15 @@ function Home() {
                     <img src={`/assets/category/${category.img}.png`} alt={`Categoria - ${category.title}`}/>
                     <h2 className="category__title">{category.title}</h2>
                     <img src={logoStars}/>
-                    <a href={`https://wa.me/+5585991378240?text=Tenho interesse na categoria (${category.title}), pode me ajudar?`} target="_blank" className="link-whatsapp">
+                    <a href={`https://wa.me/+55859921597561?text=Tenho interesse na categoria (${category.title}), pode me ajudar?`} target="_blank" className="link-whatsapp">
                         Chamar no whatsapp
                     </a>
                   </div>
               )}
             </div>
         </section>
+
+        <ServiceStore/>
 
         <section className="content__mark content__space">
             <h2 className="content__subtitle">Nossas marcas</h2>

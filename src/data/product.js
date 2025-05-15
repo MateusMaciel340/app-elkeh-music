@@ -63,5 +63,60 @@ export const listProduct = [
         id: 13,
         title: 'Guitarra Tagima 530',
         category: 'Instrumentos'
+    },
+    {
+        id: 14,
+        title: 'Palhetas variadas',
+        category: 'Variedades'
+    },
+    {
+        id: 15,
+        title: 'Fonte NiG - 12 pedais',
+        category: 'Fontes'
+    },
+    {
+        id: 16,
+        title: 'Interface de áudio',
+        category: 'Áudio e Gravações'
+    },
+    {
+        id: 17,
+        title: 'Caixa para Bateria',
+        category: 'Instrumentos'
+    },
+    {
+        id: 18,
+        title: 'Mini tweeter',
+        category: 'Eletrônica'
+    },
+    {
+        id: 19,
+        title: 'Corneta e Tweeter',
+        category: 'Eletrônica'
+    },
+    {
+        id: 20,
+        title: 'Promadite (Adesivo)',
+        category: 'Eletrônica'
+    },
+    {
+        id: 21,
+        title: 'Controle remoto',
+        category: 'Eletrônica'
+    },
+    {
+        id: 22,
+        title: 'Cabo RCA Y',
+        category: 'Eletrônica'
+    },
+    {
+        id: 23,
+        title: 'Cabo RCA - 5m',
+        category: 'Eletrônica'
+    },
+    {
+        id: 24,
+        title: 'Módulo da taramps',
+        category: 'Eletrônica'
     }
 ];
