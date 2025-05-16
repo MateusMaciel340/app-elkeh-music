@@ -2,77 +2,92 @@ export const listProduct = [
     { 
         id: 1, 
         title: 'Pedaleira para baixo, Vox', 
-        category: 'Acessórios' 
+        category: 'Acessórios',
+        idCategory: 1
     },
     { 
         id: 2, 
         title: 'Mesa Behringer Semi Nova', 
-        category: 'Acessórios' 
+        category: 'Acessórios',
+        idCategory: 1
     },
     { 
         id: 3, 
         title: 'Óleo para durabilidade das cordas', 
-        category: 'Conservação' 
+        category: 'Conservação',
+        idCategory: 3
     },
     { 
         id: 4, 
         title: 'Microfone sem fio', 
-        category: 'Variedades' 
+        category: 'Variedades',
+        idCategory: 5
     },
     { 
         id: 5, 
         title: 'Violão Hofman', 
-        category: 'Instrumentos' 
+        category: 'Instrumentos',
+        idCategory: 2,
     },
     { 
         id: 6, 
         title: 'Tagima Rio Negro', 
-        category: 'Instrumentos' 
+        category: 'Instrumentos',
+        idCategory: 2,
     },
     {
         id: 7,
         title: 'Guitarra Strinberg',
-        category: 'Instrumentos'
+        category: 'Instrumentos',
+        idCategory: 2
     },
     {
         id: 8,
         title: 'Violão Strinberg elétrico',
-        category: 'Instrumentos'
+        category: 'Instrumentos',
+        idCategory: 2
     },
     {
         id: 9,
         title: 'Roland E-x20A',
-        category: 'Instrumentos'
+        category: 'Instrumentos',
+        idCategory: 2
     },
     {
         id: 10,
         title: 'Violino com bag de luxo!',
-        category: 'Instrumentos'
+        category: 'Instrumentos',
+        idCategory: 2
     },
     {
         id: 11,
         title: 'Board',
-        category: 'Acessórios'
+        category: 'Acessórios',
+        idCategory: 1
     },
     {
         id: 12, 
         title: 'Pedaleira Valvulada Vox',
-        category: 'Acessórios'
+        category: 'Acessórios',
+        idCategory: 1
     },
     {
         id: 13,
         title: 'Guitarra Tagima 530',
-        category: 'Instrumentos'
+        category: 'Instrumentos',
+        idCategory: 2
     },
     {
         id: 14,
         title: 'Palhetas variadas',
-        category: 'Variedades'
+        category: 'Variedades',
+        idCategory: 5
     },
     {
         id: 15,
         title: 'Fonte NiG - 12 pedais',
-        category: 'Fontes'
+        category: 'Fontes',
+        idCategory: 4
     },
     {
         id: 16,
@@ -82,41 +97,49 @@ export const listProduct = [
     {
         id: 17,
         title: 'Caixa para Bateria',
-        category: 'Instrumentos'
+        category: 'Instrumentos',
+        idCategory: 2
     },
     {
         id: 18,
         title: 'Mini tweeter',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     },
     {
         id: 19,
         title: 'Corneta e Tweeter',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     },
     {
         id: 20,
         title: 'Promadite (Adesivo)',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     },
     {
         id: 21,
         title: 'Controle remoto',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     },
     {
         id: 22,
         title: 'Cabo RCA Y',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     },
     {
         id: 23,
         title: 'Cabo RCA - 5m',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     },
     {
         id: 24,
         title: 'Módulo da taramps',
-        category: 'Eletrônica'
+        category: 'Eletrônica',
+        idCategory: 6
     }
 ];

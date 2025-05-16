@@ -18,7 +18,7 @@ function Contact() {
 
                     <div className="contact__button">
                         <a href="https://www.instagram.com/elkeh_music/" target="_blank" className="contact__link">Instagram</a>
-                        <a href="https://wa.me/+55859921597561" target="_blank" className="contact__link-whatsapp">Whatsapp</a>
+                        <a href="https://wa.me/5585921597561" target="_blank" className="contact__link-whatsapp">Whatsapp</a>
                     </div>
                 </div>
             </div>

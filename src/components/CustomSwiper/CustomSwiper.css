@@ -19,3 +19,10 @@
 .swiper-pagination-bullet {
     border: 4px solid #2e2e2e;
 }
+
+@media screen and (max-width: 448px) {
+    .custom-swiper__pagination .swiper-button-prev,
+    .custom-swiper__pagination .swiper-button-next {
+        top: 300px;
+}
+}

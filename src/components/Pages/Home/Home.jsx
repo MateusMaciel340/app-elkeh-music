@@ -5,6 +5,7 @@ import { listMark } from '../../../data/mark';
 import logoStars from '../../../assets/icon-stars.png';
 import { useEffect } from 'react';
 import ServiceStore from './Service/ServiceStore';
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -24,9 +25,13 @@ function Home() {
                     <h2 className="category__title">{category.title}</h2>
                     <img src={logoStars}/>
 
+                    <Link to={`/category/${category.id}`} className="link-whatsapp link-instagram link-category__main">
+                      Saiba mais
+                    </Link>
+
 
                     <div className="category__links">
-                      <a href={`https://wa.me/5585921597561?text=Tenho interesse na categoria (${category.title}), pode me ajudar?`} target="_blank" className="link-whatsapp">
+                      <a href={`https://wa.me/5585921597561?text=Tenho interesse na categoria "${category.title}", pode me ajudar?`} target="_blank" className="link-whatsapp">
                           <img src={"/assets/social/icon-transparent/whatsapp-brands.svg"}/>
                       </a>
                       <a href={`https://www.instagram.com/elkeh_music`} target="_blank" className="link-whatsapp link-instagram">
