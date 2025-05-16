@@ -6,8 +6,7 @@ import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 
 function CustomSwiper() {
   return (
-    <section>
-    <div className="swiper-pagination"></div>
+    <section className="custom-swiper__pagination">
 
     <Swiper
     modules={[Navigation, Pagination, Scrollbar]}

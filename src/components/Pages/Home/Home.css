@@ -31,6 +31,24 @@
     font-size: 2rem;
 }
 
+.category__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.category__group .link-instagram {
+    background: #111111;
+}
+
+.category__group .link-instagram:hover {
+    background: #e0940f;
+}
+
+.category__group .link-whatsapp:hover {
+    background: #e0940f;
+}
+
 /* Mark.css */
 .mark__group {
     align-items: center;

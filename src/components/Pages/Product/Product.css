@@ -1,10 +1,7 @@
 .product__group {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    gap: 4rem;
+    justify-content: space-around;
 }
 
 .product__layer {
@@ -12,6 +9,8 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 60%;
+    padding: 2rem 0;
 }
 
 .product__layer img {
@@ -22,4 +21,28 @@
     background: #2e2e2e;
     padding: 0.5rem;
     border-radius: 0.5rem;
+}
+
+.product__pagination {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.product__pagination .swiper-pagination {
+    position: relative;
+    padding-top: 3rem;
+}
+
+.product__pagination .swiper-pagination-bullet {
+    border: 4px solid #e0940f !important;
+}
+
+.product__pagination .swiper-button-prev,
+.product__pagination .swiper-button-next {
+    background: #e0940f;
+    color: #FFFFFF !important;
+    border-radius: 100%;
+    color: #e0940f;
+    padding: 2rem;
 }

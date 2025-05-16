@@ -9,10 +9,11 @@
     width: 100%;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.custom-swiper__pagination .swiper-button-prev,
+.custom-swiper__pagination .swiper-button-next {
     color: #e0940f;
     padding: 2rem;
+    top: 250px;
 }
 
 .swiper-pagination-bullet {

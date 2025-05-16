@@ -9,6 +9,6 @@ export const listSocial = [
         id: 2, 
         title: 'Whatsapp', 
         icon: 'whatsapp-brands', 
-        link: 'https://wa.me/55859921597561' 
+        link: 'https://wa.me/5585921597561' 
     }   
 ];
