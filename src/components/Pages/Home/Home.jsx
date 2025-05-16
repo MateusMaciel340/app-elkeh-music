@@ -6,6 +6,7 @@ import logoStars from '../../../assets/icon-stars.png';
 import { useEffect } from 'react';
 import ServiceStore from './Service/ServiceStore';
 import { Link } from 'react-router-dom';
+import CourseStore from './Course/CourseStore';
 
 function Home() {
 
@@ -44,6 +45,7 @@ function Home() {
         </section>
 
         <ServiceStore/>
+        <CourseStore/>
 
         <section className="content__mark content__space">
             <h2 className="content__subtitle">Nossas marcas</h2>

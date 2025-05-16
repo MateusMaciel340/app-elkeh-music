@@ -1,0 +1,49 @@
+.content__course .content__text {
+    padding: 0 3rem;
+}
+
+.content__course .menu-list {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content__course .menu-item {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    width: 40%;
+
+    border: 4px solid #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.content__course .menu-musical {
+    width: 30%;
+}
+
+@media screen and (max-width: 704px) {
+    .content__course .content__text {
+        font-size: 1.2rem;
+        border: 3px solid #e0940f;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+
+    .content__course .menu-item {
+        width: 100%;
+    }
+
+    .content__course .menu-item {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .content__course .menu-item {
+        width: 100%;
+    }
+}
